@@ -1,6 +1,6 @@
 export const TETHER = {
   "arbitrum-one": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9",
-  "arbitrum-testnet": "0x920b9301c2de92186299cd2abc7199e25b9728b3",
+  "arbitrum-testnet": "0x48a4052198F268833B6f577c6ac06087cFE3F688",
 };
 
 export const WETH = {

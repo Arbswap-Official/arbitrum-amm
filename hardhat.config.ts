@@ -4,7 +4,7 @@ import "@nomiclabs/hardhat-etherscan";
 import "@nomiclabs/hardhat-solhint";
 import "@nomiclabs/hardhat-waffle";
 import "@openzeppelin/hardhat-upgrades";
-import 'dotenv/config';
+import "dotenv/config";
 import "hardhat-abi-exporter";
 import "hardhat-deploy";
 import "hardhat-deploy-ethers";
@@ -42,8 +42,8 @@ const config: HardhatUserConfig = {
   },
   namedAccounts: {
     deployer: {
-      default: 0
-    }
+      default: 0,
+    },
   },
   networks: {
     mainnet: {
@@ -74,7 +74,7 @@ const config: HardhatUserConfig = {
       saveDeployments: true,
       tags: ["staging"],
       gasPrice: 5000000000,
-      gasMultiplier: 2
+      gasMultiplier: 2,
     },
     rinkeby: {
       url: `https://rinkeby.infura.io/v3/${process.env.INFURA_API_KEY}`,
@@ -84,7 +84,7 @@ const config: HardhatUserConfig = {
       saveDeployments: true,
       tags: ["staging"],
       gasPrice: 5000000000,
-      gasMultiplier: 2
+      gasMultiplier: 2,
     },
     goerli: {
       url: `https://goerli.infura.io/v3/${process.env.INFURA_API_KEY}`,
@@ -94,7 +94,7 @@ const config: HardhatUserConfig = {
       saveDeployments: true,
       tags: ["staging"],
       gasPrice: 5000000000,
-      gasMultiplier: 2
+      gasMultiplier: 2,
     },
     kovan: {
       url: `https://kovan.infura.io/v3/${process.env.INFURA_API_KEY}`,
@@ -104,7 +104,7 @@ const config: HardhatUserConfig = {
       saveDeployments: true,
       tags: ["staging"],
       gasPrice: 20000000000,
-      gasMultiplier: 2
+      gasMultiplier: 2,
     },
     moonbase: {
       url: "https://rpc.testnet.moonbeam.network",
@@ -116,17 +116,17 @@ const config: HardhatUserConfig = {
       gas: 5198000,
       gasMultiplier: 2,
     },
-    'arbitrum-one': {
+    "arbitrum-one": {
       url: "https://arb1.arbitrum.io/rpc",
       accounts,
       chainId: 42161,
-      gas: 2_000_000,
+      gas: 30_000_000,
       live: true,
       saveDeployments: true,
       tags: ["live"],
       gasMultiplier: 2,
     },
-    'arbitrum-testnet': {
+    "arbitrum-testnet": {
       url: "https://rinkeby.arbitrum.io/rpc",
       accounts,
       chainId: 421611,
@@ -144,7 +144,7 @@ const config: HardhatUserConfig = {
       saveDeployments: true,
       gasPrice: 22000000000,
     },
-    'fantom-testnet': {
+    "fantom-testnet": {
       url: "https://rpc.testnet.fantom.network",
       accounts,
       chainId: 4002,
@@ -183,7 +183,7 @@ const config: HardhatUserConfig = {
       live: true,
       saveDeployments: true,
     },
-    'bsc-testnet': {
+    "bsc-testnet": {
       url: "https://data-seed-prebsc-2-s3.binance.org:8545",
       accounts,
       chainId: 97,
@@ -241,6 +241,6 @@ const config: HardhatUserConfig = {
       verbose: true,
     },
   },
-}
+};
 
 export default config;
