@@ -1,0 +1,289 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "b56bf2eb620ed8718f8d933d775560a211d8a9e5c95c46155b729b8669411c74": {
+      "address": "0xAb5DE223CF41c585C5E03100A505e236364571D1",
+      "txHash": "0x7043bfd7674084865b0f55957a5c8f7f6547b72544d186a82a0ae837c5a348fa",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "vestingSchedules",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_struct(VestingSchedule)2341_storage))",
+            "src": "contracts/StakingPoolRewarder.sol:38"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "stakingPools",
+            "type": "t_address",
+            "src": "contracts/StakingPoolRewarder.sol:39"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "rewardToken",
+            "type": "t_address",
+            "src": "contracts/StakingPoolRewarder.sol:40"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "rewardDispatcher",
+            "type": "t_address",
+            "src": "contracts/StakingPoolRewarder.sol:41"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "percentageToVestingSchedule",
+            "type": "t_uint8",
+            "src": "contracts/StakingPoolRewarder.sol:42"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "claimDuration",
+            "type": "t_uint256",
+            "src": "contracts/StakingPoolRewarder.sol:43"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "claimStep",
+            "type": "t_uint256",
+            "src": "contracts/StakingPoolRewarder.sol:44"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_mapping(t_uint256,t_struct(VestingSchedule)2341_storage))": {
+            "label": "mapping(address => mapping(uint256 => struct StakingPoolRewarder.VestingSchedule))"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_struct(VestingSchedule)2341_storage)": {
+            "label": "mapping(uint256 => struct StakingPoolRewarder.VestingSchedule)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_struct(VestingSchedule)2341_storage": {
+            "label": "struct StakingPoolRewarder.VestingSchedule",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint128"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint32"
+              },
+              {
+                "label": "endTime",
+                "type": "t_uint32"
+              },
+              {
+                "label": "step",
+                "type": "t_uint32"
+              },
+              {
+                "label": "lastClaimTime",
+                "type": "t_uint32"
+              }
+            ]
+          },
+          "t_uint128": {
+            "label": "uint128"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "95d336015b722b4f2b26fc4ca56abb313d722e22551793d3422eadc438c7723f": {
+      "address": "0xb5d724D8BCa8EbbE8f7D7694a996BfeD90abE242",
+      "txHash": "0xdd16c1f9b6e197ee54e917dfba9c8f4d7c4516678fd7240bde61d2af2139b3fc",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:30"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:20"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:74"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "vestingSchedules",
+            "type": "t_mapping(t_address,t_mapping(t_uint256,t_struct(VestingSchedule)2414_storage))",
+            "src": "contracts/StakingPoolRewarder.sol:39"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "stakingPools",
+            "type": "t_address",
+            "src": "contracts/StakingPoolRewarder.sol:40"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "rewardToken",
+            "type": "t_address",
+            "src": "contracts/StakingPoolRewarder.sol:41"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "rewardDispatcher",
+            "type": "t_address",
+            "src": "contracts/StakingPoolRewarder.sol:42"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "percentageToVestingSchedule",
+            "type": "t_uint8",
+            "src": "contracts/StakingPoolRewarder.sol:43"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "claimDuration",
+            "type": "t_uint256",
+            "src": "contracts/StakingPoolRewarder.sol:44"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "claimStep",
+            "type": "t_uint256",
+            "src": "contracts/StakingPoolRewarder.sol:45"
+          },
+          {
+            "contract": "StakingPoolRewarder",
+            "label": "locked",
+            "type": "t_bool",
+            "src": "contracts/StakingPoolRewarder.sol:46"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_mapping(t_uint256,t_struct(VestingSchedule)2414_storage))": {
+            "label": "mapping(address => mapping(uint256 => struct StakingPoolRewarder.VestingSchedule))"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_uint256,t_struct(VestingSchedule)2414_storage)": {
+            "label": "mapping(uint256 => struct StakingPoolRewarder.VestingSchedule)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_struct(VestingSchedule)2414_storage": {
+            "label": "struct StakingPoolRewarder.VestingSchedule",
+            "members": [
+              {
+                "label": "amount",
+                "type": "t_uint128"
+              },
+              {
+                "label": "startTime",
+                "type": "t_uint32"
+              },
+              {
+                "label": "endTime",
+                "type": "t_uint32"
+              },
+              {
+                "label": "step",
+                "type": "t_uint32"
+              },
+              {
+                "label": "lastClaimTime",
+                "type": "t_uint32"
+              }
+            ]
+          },
+          "t_uint128": {
+            "label": "uint128"
+          },
+          "t_uint32": {
+            "label": "uint32"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0xE53B932Edf2e43622f129DA918Dd49275b6D4f47",
+    "txHash": "0xbff4e8fbbd6312fc044f34b1b9a3c51ad590b3f22229963fa0dac6e11dc19862"
+  }
+}
