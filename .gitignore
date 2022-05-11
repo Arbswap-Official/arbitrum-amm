@@ -108,3 +108,18 @@ dist
 
 # VS Code config
 .vscode/*
+
+abi/
+artifacts/
+cache/
+coverage/
+exports/
+node_modules/
+types/
+package-lock.json
+coverage.json
+.env
+.DS_Store
+.idea/
+.openzeppelin/unknown-*.json
+flatten/
